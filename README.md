@@ -4,11 +4,11 @@ Code of project for CISC881: attention-guided medical imaging classification, Im
 ## Preparation
 ### Environmental setup
 Anaconda is used for this implementation. Two enviromental set-up file could be found with the code.
-1. environment.yaml: exported by the Anaconda directly
+1. [environment.yaml](https://github.com/infinitr0us/Project_of_CISC881/blob/master/environment.yaml): exported by the Anaconda directly
 ```
 conda env create -n [env_name] -f environment.yaml
 ```
-2. requirements.txt: exported by the pip directly 
+2. [requirements.txt](https://github.com/infinitr0us/Project_of_CISC881/blob/master/requirements.txt): exported by the pip directly 
 ```
 pip install -r requirements.txt
 ```
