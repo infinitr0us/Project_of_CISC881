@@ -12,6 +12,9 @@ conda env create -n [env_name] -f environment.yaml
 ```
 pip install -r requirements.txt
 ```
+All of the functions here is validated on my PC with: Windows 10 Pro 21H1 Version 19043.1586, Windows Feature Experience Pack 120.2212.4170.0;
+CPU I9-10900K, GPU RTX 2080 Ti
+
 ### Dataset Preparation
 2 datasets are used here. They are [MedMNIST v2](https://github.com/MedMNIST/MedMNIST) and [Chaoyang](https://github.com/bupt-ai-cz/HSA-NRL/tree/9d404dd671f675c3b3bd8f430c5708a7a35ae57d) dataset. Fortunately, we do not need data pre-processing here.
 1. MedMNIST v2: It is easier here if you have done the environmental setup, the dataset would be downloaded automatically during the initial training process
